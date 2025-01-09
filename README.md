@@ -13,7 +13,11 @@ This project contains SQL scripts for analyzing layoffs data. The scripts perfor
 - **Duplicate Removal**: Identify and remove duplicate records using `ROW_NUMBER()`.
 - **Data Standardization**: Standardize company names, industries, and country names.
 - **Date Conversion**: Convert date strings to proper date format.
-- **Industry Imputation**: Fill missing industry values based on matching company and location.
-- **Trend Analysis**: Analyze layoffs trends over time and across different industries and countries.
+- **Industry Imputation**: Fill in missing industry values based on matching company and location.
+- **Trend Analysis**: Analyze layoff trends over time and across different industries and countries.
 - **Ranking**: Rank companies by layoffs per year.
 
+## Insights Gained
+- **The total number of layoffs per year and month.**
+- **The top companies and industries affected by layoffs.**
+- **Rolling totals of layoffs over time for trend analysis.**
